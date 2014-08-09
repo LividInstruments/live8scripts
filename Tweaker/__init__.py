@@ -1,4 +1,4 @@
-# http://aumhaa.blogspot.com
+# by amounra 0413 : http://www.aumhaa.com
 
 from Tweaker import Tweaker
 

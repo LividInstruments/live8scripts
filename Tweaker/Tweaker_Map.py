@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-# encoding: utf-8
+# by amounra 0413 : http://www.aumhaa.com
 """
 Tweaker_Map.py
 
@@ -31,7 +30,7 @@ TWEAKER_PADS = [63, 64, 65, 66, 67, 68, 69, 70]    #velocity sensitive drumpads 
 
 TWEAKER_PAD_PRESSURES = [71, 72, 73, 74, 75, 76, 77, 78]    #velocity sensitive drumpads cc's
 
-PAD_SENSITIVITY = 5  #this determines how sensitive the pads are, 0 being stiffest, 5 being easiest to trigger the highest velocity; the setting is sent to the Tweaker when it initializes
+PAD_SENSITIVITY = 10  #this determines how sensitive the pads are, 0 being stiffest, 5 being easiest to trigger the highest velocity; the setting is sent to the Tweaker when it initializes
 
 PAD_TRANSLATION = 	((0, 0, 0, 63), (0, 1, 1, 64), (0, 2, 2, 65), (0, 3, 3, 66),		#this is used by DrumRacks to translate input to one of the visible grid squares for triggering
 					(1, 0, 4, 67), (1, 1, 5, 68), (1, 2, 6, 69), (1, 3, 7, 70))			#the format is (x position, y position, note-number, channel)
@@ -39,7 +38,7 @@ PAD_TRANSLATION = 	((0, 0, 0, 63), (0, 1, 1, 64), (0, 2, 2, 65), (0, 3, 3, 66),	
 
 FOLLOW = True		#this sets whether or not the last selected device on a track is selected for editing when you select a new track
 
-#	The default assignment of colors within the OhmRGB is:
+#	The default assignments of colors for the Tweaker RGB's are:
 #	1:Note 2 = green
 #	2:Note 4 = red 
 #	3:Note 8 = yellow 
@@ -48,7 +47,7 @@ FOLLOW = True		#this sets whether or not the last selected device on a track is 
 #	6:Note 64 = magenta
 #	7:Note 127 = white
 #	Because the colors are reassignable, and the default colors have changed from the initial prototype,
-#		MonOhm script utilizes a color map to assign colors to the buttons.  This color map can be changed 
+#		Tweaker script utilizes a color map to assign colors to the buttons.  This color map can be changed 
 #		here in the script.  The color ordering is from 1 to 7.  
 
 #COLOR_MAP = [1, 2, 3, 4, 5, 6, 7]   #new version
